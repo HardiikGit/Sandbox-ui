@@ -1,0 +1,172 @@
+/* Responsive CSS */
+@media (max-width: 992px) {
+  /* All Section Padding */
+  .Banner-slider-sec,
+  .My-Services,
+  .My-Selected-shots,
+  .Happy-customer-sec,
+  .About-Me-sec,
+  .My-Working-Process {
+    padding: 30px 0px;
+  }
+  /* Navigation Bar Section */
+  .Logo-img {
+    margin: 0;
+  }
+  .sticky-navbar .Logo-img {
+    opacity: 1 !important;
+    visibility: visible !important;
+    height: auto !important;
+  }
+  .Header-Logo {
+    padding: 0;
+  }
+  .navigation-toggle-btn {
+    display: block;
+  }
+  .nav-btn-styl {
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: var(--text-color);
+  }
+  .sandbox-nav-heading h3 {
+    color: var(--white-text);
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .x-mark {
+    background: #a1a1a13d;
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    color: var(--white-text);
+  }
+  .infoSearch-icon-fl,
+  .social-icons,
+  .nav-link::before {
+    display: none;
+  }
+  .nav-list {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background: var(--nav-bar-color);
+    width: 40%;
+    height: 100%;
+    text-align: left;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 40px;
+    z-index: 999;
+    transition: all ease-in 0.6s;
+    overflow: scroll;
+    scrollbar-width: none;
+    a {
+      color: var(--white-text);
+    }
+  }
+  .bg-overlay {
+    position: fixed;
+    background: #00000024;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    transition: all ease-in-out 0.3s;
+  }
+  .open {
+    left: 0%;
+  }
+  .logo-close-fl {
+    display: flex;
+    width: 100%;
+  }
+  .list-items {
+    width: 100%;
+    text-align: left;
+  }
+  .main-nav-social {
+    display: flex;
+    margin-top: auto;
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  /* Service Boxes */
+  .Services-info-box > div {
+    flex: 100%;
+  }
+  /* Take Photo Section */
+  .Image-main-heading h2 {
+    font-size: 38px;
+  }
+  /* Happy Customer Slider */
+  .happy-customer-slider {
+    margin: 0px 10px;
+  }
+  /* About Me */
+  .About-me-info {
+    flex-direction: column-reverse;
+  }
+  /* Working Process */
+  .Working-Process-Details-Box {
+    margin-top: 30px;
+  }
+  .Pricing-Requesting-Form-sec {
+    width: 100%;
+  }
+  .Phone-Add-box-fl {
+    gap: 30px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* Take Photo */
+  .Image-main-heading h2 {
+    font-size: 42px;
+  }
+  /* Selected Shots Gallery */
+  .Grid-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  .Grid-gallery > div {
+    height: 150px;
+  }
+}
+@media (max-width: 567px) {
+  /* Navigation Bar */
+  .nav-list {
+    width: 100%;
+  }
+  .Services-Images-fl > div,
+  .Working-Process-Details-Box > div,
+  .name-email-fl > div {
+    flex: 100%;
+  }
+  .Image-main-heading h2 {
+    font-size: 28px;
+  }
+  .Pricing-Requesting-Form-sec {
+    padding: 30px;
+  }
+  .email-input {
+    margin-top: 20px;
+  }
+  .Heading-h2 h2 {
+    font-size: 28px;
+  }
+  .Highlight-para p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .Service,
+  .Highlight-para {
+    margin-top: 20px;
+  }
+  .Copy-Social-fl {
+    justify-content: center;
+  }
+}
