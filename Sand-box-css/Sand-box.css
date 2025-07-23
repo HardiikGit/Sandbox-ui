@@ -270,8 +270,8 @@ input {
 .Take-photo,
 .Happy-customer-sec,
 .Request-Photography-price {
+  background: no-repeat fixed;
   background-size: cover;
-  background-attachment: fixed;
 }
 .Take-photo::before,
 .Happy-customer-sec::before,
