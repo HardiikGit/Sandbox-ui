@@ -270,7 +270,6 @@ input {
 .Take-photo,
 .Happy-customer-sec,
 .Request-Photography-price {
-  background: url("/Sandbox-Images/Take-photography.jpg") no-repeat center !important;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -291,9 +290,6 @@ input {
   color: var(--white-text);
 }
 /* Happy Customer Section CSS */
-.Happy-customer-sec {
-  background-image: url("/Sandbox-Images/Happy-Customer.jpg") !important;
-}
 .happy-slider-Cm {
   margin-top: 50px;
 }
@@ -346,9 +342,6 @@ input {
   height: 50px;
 }
 /* Pricing Form Section CSS */
-.Request-Photography-price {
-  background-image: url("/Sandbox-Images/Request-Price.jpg") !important;
-}
 .Pricing-Requesting-Form-sec {
   width: 60%;
   padding: 60px;
