@@ -122,10 +122,17 @@ overlayBg.addEventListener("click", () => {
 const searchClick = document.querySelector(".search-click");
 const closeX = document.querySelector(".close-btn-cl");
 const popTopClassAdd = document.querySelector(".search-pop-up");
+const overLayAdd = document.querySelector(".bg-overlay-2");
 
 searchClick.addEventListener("click", () => {
   popTopClassAdd.classList.add("active-top");
+  overLayAdd.classList.add("active-top");
 });
 closeX.addEventListener("click", () => {
   popTopClassAdd.classList.remove("active-top");
+  overLayAdd.classList.remove("active-top");
+});
+overLayAdd.addEventListener("click", () => {
+  popTopClassAdd.classList.remove("active-top");
+  overLayAdd.classList.remove("active-top");
 });
