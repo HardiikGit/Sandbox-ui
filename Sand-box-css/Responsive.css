@@ -173,4 +173,7 @@
   .Copy-Social-fl {
     justify-content: center;
   }
+  .txt-styl p {
+    color: var(--light-text) !important;
+  }
 }
