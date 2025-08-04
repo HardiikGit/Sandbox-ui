@@ -124,6 +124,10 @@
   }
 }
 @media (max-width: 767px) {
+  /* Navigation Bar Buttons */
+  .Custom-Btn-fl {
+    display: none;
+  }
   /* Take Photo */
   .Image-main-heading h2 {
     font-size: 42px;
