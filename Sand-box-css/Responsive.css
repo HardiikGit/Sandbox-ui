@@ -11,7 +11,7 @@
   }
   /* Navigation Bar Section */
   .Logo-img {
-    margin: 0;
+    padding: 0;
   }
   .sticky-navbar .Logo-img {
     opacity: 1 !important;
@@ -144,6 +144,18 @@
   /* Navigation Bar */
   .nav-list {
     width: 100%;
+  }
+  .Logo-img {
+    margin: 0;
+    padding: 20px 0px;
+    width: 130px;
+  }
+  .x-mark {
+    padding: 6px;
+    width: 35px;
+  }
+  .nav-btn-styl {
+    font-size: 20px;
   }
   .Services-Images-fl > div,
   .Working-Process-Details-Box > div,
